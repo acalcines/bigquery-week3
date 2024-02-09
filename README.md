@@ -20,7 +20,6 @@ SELECT count(*) FROM `mystic-cable-406415.ny_taxi.green_tripdata`
 
 ## -- Question 2 
 
-SELECT COUNT(DISTINCT(VendorID)) FROM `mystic-cable-406415.ny_taxi.external_green_tripdata`
 SELECT COUNT(DISTINCT(VendorID)) FROM `mystic-cable-406415.ny_taxi.green_tripdata`
 
 ## -- Question 3
